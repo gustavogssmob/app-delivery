@@ -1,15 +1,11 @@
-import { Text, View } from "react-native";
+import { View } from "react-native";
+import { Home } from "./screens/home";
 
 export default function Index() {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
+    <View className="flex-1 justify-center items-center"    
     >
-      <Text>Delivery App</Text>
+      <Home />
     </View>
   );
 }
